@@ -1,0 +1,208 @@
+/*
+           Color Palette
+*/
+/*
+    Night grey: #30302F
+    Dark grey: #575555
+    Warm grey: #C7C4C2
+    Creamy white: #FFFBF9
+    Egg: #F9F3EF;
+    Darkbark brown: #695848
+    Orange kick: #FF5933
+    Balance blue: #C2E3FF
+*/
+/*============================================*/
+/*
+           Color Scheme
+*/
+body{
+    background-color: #30302F;
+    color: #575555;
+}
+.wrapper{
+    background-color: #FFFBF9;
+}
+div#nav{
+    background-color: transparent;
+}
+nav ul{
+    background-color: #695848;
+}
+nav ul li p{
+    /*background-color: #575555;*/
+    color: #C2E3FF;
+}
+nav ul.subNav li a p{
+    background-color: #575555;
+    color: #C2E3FF;
+}
+nav ul li p:hover{
+    background-color: #FFFBF9;
+    color: #575555;
+}
+.subNav li a p:hover{
+    background-color: #C2E3FF;
+    color: #30302F;
+}
+a{
+    color: #FF703E;
+}
+a:hover{
+    color: #575555;
+}
+button{
+    background-color: #FF5933;
+    color: #FFFBF9;
+}
+input{
+    background-color: #C7C4C2;
+}
+input:focus{
+    background-color: #C2E3FF ;
+}
+textarea.twelve.columns{
+    background-color: #C7C4C2;
+}
+textarea:focus{
+    background-color: #C2E3FF;
+}
+button.free{
+    background-color: #96E5B1;
+}
+button:hover{
+    background-color: #575555 ;
+    color: #C2E3FF ;
+}
+
+/* 
+    Event Box
+*/
+.eventBox.row{
+    background-color: #e2ecf5;
+}
+
+/*############ End of Colors ###########*/
+#submitBtn{
+    height: 40px;
+    border-radius: 3px;
+    margin-left: 13px;
+}
+#m{
+    font-family: 'Lato', sans-serif;
+    font-size: 5.0em;
+}
+#o{
+    font-family: 'Lato', sans-serif;
+    font-size: 5.0em;
+}
+#o2{
+    font-family: 'Lato', sans-serif;
+    font-size: 5.0em;
+    color: #44749D;
+}
+#g{
+    font-family: 'Lato', sans-serif;
+    font-size: 5.0em;
+    color: #44749D;
+}
+#l{
+    font-family: 'Lato', sans-serif;
+    font-size: 5.0em;
+    color:#C6D4E1;
+}
+#e{
+    font-family: 'Lato', sans-serif;
+    font-size: 5.0em;
+    color:#C6D4E1;
+}
+#center{
+    /*margin-left: 43%;*/
+    /*margin-top: 10%;*/
+    /*padding-top: 3%;*/
+}
+
+#logoLine{
+    text-align: center;
+}
+
+#moogleLogo{
+    margin-top: 120px;
+}
+
+#inputLine{
+    text-align: center;
+    margin: 0 auto;
+}
+
+/*===========================================*/
+/*
+           Page Styling
+*/
+div#nav{
+    margin-top: 15px;
+}
+#browse{
+    margin-top: 15px;
+}
+div.row div.four.columns th{
+    padding-top: 40px;
+}
+body>div.row:first-child{
+    padding-bottom: 0;
+}
+h1:first-of-type{
+    margin-bottom: 19px;
+}
+#share{
+    line-height: 35px;
+    font-size: 1.8em;
+    float: left;
+}
+.lineHeight{
+    line-height: 35px;
+}
+textarea.twelve.columns{
+    float:left;
+    overflow: hidden;
+    margin-top: 18px;
+    padding: 10px 0 0 1.6%;
+    width: 53.488372%;
+    min-height: 75px;
+}
+#email_submit{
+    margin-left: 11.2%;
+    margin-top: 30px;
+    width: 55.4%;
+}
+img[src="img/galley_01/sample_"]{
+    width: 20%;
+}
+.eventBox.row:first-of-type{
+    margin-top: 0;
+}
+.eventBox.row{
+    -webkit-box-shadow: inset 0px 1px 74px -15px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 0px 1px 74px -15px rgba(0,0,0,0.75);
+    box-shadow: inset 0px 1px 74px -15px rgba(0,0,0,0.75);
+    margin-top: 10%;
+    margin-top: 5%;
+}
+.eventBox.row *{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.eventDesc{
+    padding-bottom:2%;
+    padding-top:2%;
+}
+#sBar{
+    /*width: 50%;*/
+    height: 40px;
+    border-radius: 3px;
+    /*text-align: center;*/
+    /*margin-left: 205px;*/
+}
+#space_events > *{
+    padding-bottom: 2%;
+    padding-top:2%;
+}
